@@ -33,10 +33,10 @@ const Navbar = () => {
                  <img onClick={()=> setShowMobleMenu(false)} src={assets.cross_icon} className='w-6' alt="" />
               </div>
              <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium'>
-               <a href="#Header" className='px-4 py-2 rounded-full inline-block'>Home</a>
-               <a href="#About" className='px-4 py-2 rounded-full inline-block'>About</a>
-               <a href="#Projects" className='px-4 py-2 rounded-full inline-block'>Projects</a>
-               <a href="#Testimonials" className='px-4 py-2 rounded-full inline-block'>Testimonials</a>
+               <a onClick={()=> setShowMobleMenu(false)} href="#Header" className='px-4 py-2 rounded-full inline-block'>Home</a>
+               <a onClick={()=> setShowMobleMenu(false)} href="#About" className='px-4 py-2 rounded-full inline-block'>About</a>
+               <a onClick={()=> setShowMobleMenu(false)} href="#Projects" className='px-4 py-2 rounded-full inline-block'>Projects</a>
+               <a onClick={()=> setShowMobleMenu(false)} href="#Testimonials" className='px-4 py-2 rounded-full inline-block'>Testimonials</a>
              </ul>
            </div>
     </div>
