@@ -53,18 +53,26 @@ const Contact = () => {
            <div className='flex flex-wrap'>
               <div className='w-full md:w-1/2 text-left'>
                 Your Name
-              <input className='w-full border bordergr300 rounded py-3 px-4 mt-2 ' type="text" name='Name' placeholder='Your Name' required />
+              <input 
+              className='w-full border bordergr300 rounded py-3 px-4 mt-2 ' 
+              type="text" name='Name' placeholder='Your Name' required />
               </div>
               <div className='w-full md:w-1/2 text-left md: pl-4'>
                 Your Email
-              <input className='w-full border bordergr300 rounded py-3 px-4 mt-2 ' type="email" name='Email' placeholder='Your Email' required />
+              <input
+               className='w-full border bordergr300 rounded py-3 px-4 mt-2 ' 
+               type="email" name='Email' placeholder='Your Email' required />
               </div>
            </div>
               <div className='my-6 text-left'>
                  Message 
-                 <textarea className='w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none' name="Message" placeholder='Message' required></textarea>
+                 <textarea 
+                 className='w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none' 
+                 name="Message" placeholder='Message' required></textarea>
               </div>
-              <button className='bg-blue-600 text-white py-2 px-12 mb-10 rounded'>{result ? result : "Send Message"}</button>
+              <button 
+              className='bg-blue-600 text-white py-2 px-12 mb-10 rounded'>{result ? result : "Send Message"}
+              </button>
        </form>
     </motion.div>
   )
