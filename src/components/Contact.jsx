@@ -43,7 +43,10 @@ const Contact = () => {
        className='uderline underline-offset-4 decoration-1 under font-light'>
        With Us</span>
        </h1>
-       <p className='text-center text-gray-500 mb-12 max-w-80 mx-auto'>Ready to Make a Move? Let's Build Your Future Together  with Us</p>
+       <p 
+       className='text-center text-gray-500 mb-12 max-w-80 mx-auto'>
+       Ready to Make a Move? Let's Build Your Future Together with Us
+       </p>
 
 
        <form onSubmit={onSubmit} className='max-w-2xl  mx-auto text-gray-600 pt-8'>
