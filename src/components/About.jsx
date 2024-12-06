@@ -15,7 +15,10 @@ const About = () => {
         About <span className='underline underline-offset-4 decoration-1 under font-light'>
           Our Brand</span>
           </h1>
-       <p className='text-gray-500 max-w-80 text-center mb-8'>Passinate About Properties, Dedicated to Your Vision</p>
+       <p 
+       className='text-gray-500 max-w-80 text-center mb-8'>
+        Passinate About Properties, Dedicated to Your Vision
+        </p>
         <div className='flex flex-col md:flex-row items-center md:items-start md:gap-20'>
            <img src={assets.brand_img} alt="" className='w-full sm:w-1/2 maxwlg' />
             <div className='flex flex-col items-center md:items-start mt-10 text-gray-600'>
@@ -39,7 +42,12 @@ const About = () => {
                    </div>
 
                 </div>
-                  <p className='my-10 max-w-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, fugiat tempore! Veritatis fuga rem quasi perferendis dolores repudiandae consequatur natus doloremque vitae sit animi eum soluta, repellat aspernatur facere necessitatibus asperiores culpa, veniam, deserunt labore impedit fugit incidunt consequuntur? Vero!</p>
+                  <p 
+                  className='my-10 max-w-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Blanditiis, fugiat tempore! Veritatis fuga rem quasi perferendis dolores repudiandae
+                    consequatur natus doloremque vitae sit animi eum soluta, repellat aspernatur facere
+                     necessitatibus asperiores culpa, veniam, deserunt labore impedit fugit incidunt consequuntur? Vero!
+                     </p>
                   <button className='bg-blue-600 text-white px-8 py2 rounded'>Learn More</button>
             </div>
         </div>
