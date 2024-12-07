@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { assets } from '../assets/assets'
+import React, { useEffect, useState } from 'react';
+import { assets } from '../assets/assets';
 
 const Navbar = () => {
   const [showMobleMenu, setShowMobleMenu] = useState(false);
@@ -28,7 +28,10 @@ const Navbar = () => {
               <img onClick={()=> setShowMobleMenu(true)} src={assets.menu_icon} className='md:hidden w-7 cursor-pointer' alt="" />
          </div>
           {/* ...............Mobile-menu .............. */}
-           <div className={`md:hidden ${showMobleMenu ? 'fixed w-full' : 'h-0 w-0' } right-0 top-0 bottom-0 overflow-hidden bg-white transition-all`}>
+           <div 
+           className={`md:hidden ${showMobleMenu ? 'fixed w-full' : 'h-0 w-0' }
+            right-0 top-0 bottom-0 overflow-hidden bg-white transition-all`}
+            >
               <div className='flex justify-end p-6 cursor-pointer'>
                  <img onClick={()=> setShowMobleMenu(false)} src={assets.cross_icon} className='w-6' alt="" />
               </div>
@@ -43,4 +46,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
