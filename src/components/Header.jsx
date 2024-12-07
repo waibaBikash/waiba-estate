@@ -1,6 +1,6 @@
-import React from 'react'
-import Navbar from './Navbar'
-import { motion } from 'framer-motion'
+import React from 'react';
+import Navbar from './Navbar';
+import { motion } from 'framer-motion';
 
 const Header = () => {
   return (
@@ -30,4 +30,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;
