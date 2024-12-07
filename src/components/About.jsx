@@ -1,6 +1,6 @@
-import React from 'react'
-import { assets } from '../assets/assets'
-import { motion } from 'framer-motion'
+import React from 'react';
+import { assets } from '../assets/assets';
+import { motion } from 'framer-motion';
 
 const About = () => {
   return (
@@ -48,11 +48,14 @@ const About = () => {
                     consequatur natus doloremque vitae sit animi eum soluta, repellat aspernatur facere
                      necessitatibus asperiores culpa, veniam, deserunt labore impedit fugit incidunt consequuntur? Vero!
                      </p>
-                  <button className='bg-blue-600 text-white px-8 py2 rounded'>Learn More</button>
+                  <button 
+                  className='bg-blue-600 text-white px-8 py2 rounded'>
+                    Learn More
+                  </button>
             </div>
         </div>
     </motion.div>
   )
 }
 
-export default About
+export default About;
