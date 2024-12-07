@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { toast } from 'react-toastify';
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
 
 const Contact = () => {
 
@@ -71,11 +71,12 @@ const Contact = () => {
                  name="Message" placeholder='Message' required></textarea>
               </div>
               <button 
-              className='bg-blue-600 text-white py-2 px-12 mb-10 rounded'>{result ? result : "Send Message"}
+              className='bg-blue-600 text-white py-2 px-12 mb-10 rounded'>
+                {result ? result : "Send Message"}
               </button>
        </form>
     </motion.div>
   )
 }
 
-export default Contact
+export default Contact;
